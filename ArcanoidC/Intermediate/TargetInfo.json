@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ArcanoidC",
-			"Path": "E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidC.Target.cs",
+			"Path": "E:\\GitLabRep\\ArkaboidC++\\Arcanoid_C_plus_plus\\ArcanoidC\\Source\\ArcanoidC.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ArcanoidCEditor",
-			"Path": "E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidCEditor.Target.cs",
+			"Path": "E:\\GitLabRep\\ArkaboidC++\\Arcanoid_C_plus_plus\\ArcanoidC\\Source\\ArcanoidCEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

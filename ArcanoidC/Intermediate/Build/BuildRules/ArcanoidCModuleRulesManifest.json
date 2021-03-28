@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidC\\ArcanoidC.Build.cs",
-		"E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidC.Target.cs",
-		"E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidCEditor.Target.cs"
+		"E:\\GitLabRep\\ArkaboidC++\\Arcanoid_C_plus_plus\\ArcanoidC\\Source\\ArcanoidC\\ArcanoidC.Build.cs",
+		"E:\\GitLabRep\\ArkaboidC++\\Arcanoid_C_plus_plus\\ArcanoidC\\Source\\ArcanoidC.Target.cs",
+		"E:\\GitLabRep\\ArkaboidC++\\Arcanoid_C_plus_plus\\ArcanoidC\\Source\\ArcanoidCEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.1"
 }

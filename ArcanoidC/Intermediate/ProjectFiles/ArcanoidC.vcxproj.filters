@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArcanoidC.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1E49CED7-3EBC-4995-844D-EDB392267046}</UniqueIdentifier>
+      <UniqueIdentifier>{8A9BDE82-FB39-4423-A678-B65D633CCDE2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArcanoidC.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5D446308-D3BC-4288-A43E-42AC2ABADEB3}</UniqueIdentifier>
+      <UniqueIdentifier>{0143D9DC-E97C-484F-AE5E-FB1C6454401D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArcanoidC">
-      <UniqueIdentifier>{CB234B7B-5763-47E2-8DD0-C32195383C06}</UniqueIdentifier>
+      <UniqueIdentifier>{CBB69C1B-B69B-47F5-9817-2E93A00207C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArcanoidC\ArcanoidC.Build.cs">
       <Filter>Source\ArcanoidC</Filter>
@@ -39,6 +39,18 @@
       <Filter>Source\ArcanoidC</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ArcanoidC\ArcanoidCGameModeBase.h">
+      <Filter>Source\ArcanoidC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArcanoidC\PlayerPawn.cpp">
+      <Filter>Source\ArcanoidC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArcanoidC\PlayerPawn.h">
+      <Filter>Source\ArcanoidC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArcanoidC\PlayerPawn_Player_Controller.cpp">
+      <Filter>Source\ArcanoidC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArcanoidC\PlayerPawn_Player_Controller.h">
       <Filter>Source\ArcanoidC</Filter>
     </ClInclude>
   </ItemGroup>
