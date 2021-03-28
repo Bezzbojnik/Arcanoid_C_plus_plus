@@ -11,21 +11,33 @@
 
 APlayerPawn_Player_Controller::APlayerPawn_Player_Controller()
 {
-	TArray<AActor*> CameraActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACameraActor::StaticClass(), CameraActors);
-	FViewTargetTransitionParams Params;
-	if(CameraActors.IsValidIndex(0))
-		SetViewTarget(CameraActors[0], Params);
+
 }
 
 void APlayerPawn_Player_Controller::BeginPlay()
 {
+
+	TArray<AActor*> CameraActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACameraActor::StaticClass(), CameraActors);
+	FViewTargetTransitionParams Params;
+	SetViewTarget(CameraActors[0], Params);
+
 }
 
 void APlayerPawn_Player_Controller::SetupInputComponent()
 {
+	Super::SetupInputComponent();
+
+	EnableInput(this);
+
+	InputComponent->BindAxis("MoveHorizontal", this, &APlayerPawn_Player_Controller::MoveHorizontal);
 }
 
 void APlayerPawn_Player_Controller::MoveHorizontal(float AxisValue)
 {
+	auto MyPawn = Cast<APlayerPawn>(GetPawn());
+
+	if (MyPawn) {
+		MyPawn->MoveHorizontal(AxisValue);
+	}
 }

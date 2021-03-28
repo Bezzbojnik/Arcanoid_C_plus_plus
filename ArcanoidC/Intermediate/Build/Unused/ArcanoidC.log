@@ -1,3 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\GitLabRep\ArkaboidC++\Arcanoid_C_plus_plus).
-  Target is up to date
-  Total execution time: 0,42 seconds
+  Invalidating makefile for ArcanoidCEditor (PlayerPawn.cpp modified)
+  Building ArcanoidCEditor...
+  Using Visual Studio 2019 14.28.29912 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 12 processes...
+    [1/5] PlayerPawn.cpp
+    [2/5] PlayerPawn_Player_Controller.cpp
+    [3/5] UE4Editor-ArcanoidC-0010.lib
+       Создается библиотека E:\GitLabRep\ArkaboidC++\Arcanoid_C_plus_plus\ArcanoidC\Intermediate\Build\Win64\UE4Editor\Development\ArcanoidC\UE4Editor-ArcanoidC-0010.lib и объект E:\GitLabRep\ArkaboidC++\Arcanoid_C_plus_plus\ArcanoidC\Intermediate\Build\Win64\UE4Editor\Development\ArcanoidC\UE4Editor-ArcanoidC-0010.exp
+    [4/5] UE4Editor-ArcanoidC-0010.dll
+       Создается библиотека E:\GitLabRep\ArkaboidC++\Arcanoid_C_plus_plus\ArcanoidC\Intermediate\Build\Win64\UE4Editor\Development\ArcanoidC\UE4Editor-ArcanoidC-0010.suppressed.lib и объект E:\GitLabRep\ArkaboidC++\Arcanoid_C_plus_plus\ArcanoidC\Intermediate\Build\Win64\UE4Editor\Development\ArcanoidC\UE4Editor-ArcanoidC-0010.suppressed.exp
+    [5/5] ArcanoidCEditor.target
+  Total time in Parallel executor: 1,19 seconds
+  Total execution time: 2,58 seconds
