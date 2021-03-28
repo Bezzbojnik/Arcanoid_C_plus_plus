@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidC\\ArcanoidC.Build.cs",
+		"E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidC.Target.cs",
+		"E:\\Unreal Projects\\ArcanoidC\\Source\\ArcanoidCEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.1"
+}
